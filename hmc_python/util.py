@@ -8,6 +8,7 @@ import os
 import math
 import random
 
+from .lparam import *
 
 class psferm:
     def __init__(self):
@@ -148,7 +149,8 @@ def make_lattice():
     global gen_pt
     global T_int
     global T_int_prop
-
+    global neighbor
+    
     i = None
     j = None
     k = None
@@ -182,7 +184,7 @@ def make_lattice():
 
     T_int = [[[None]*no_a_seg]*MAXT_cut]*NOT_cut
     T_int_prop = [[[[None]*no_prop_seg]*nt]*MAXT_cut]*NOT_cut
-
+    neighbor = [[None]*4]*volume
     for t in range(nt):
         for x in range(nx):
             i = site_index(x,t)     # Function not defined yet !!!!
@@ -634,8 +636,6 @@ def propagator():
 
     return lpsi
 
-neighbor = [[None]*4]*volume # neighbour stores the index of the neighbouring site in place of the pointer
-
 
 def make_nn_gather():
     global neighbor
@@ -693,6 +693,26 @@ def gather(field, index, parity, dest):
         for j in range(volume):
                 dest[j] = lattice[neighbor[index][j]][field]
 
+def gauss():
+    import random
+    iset = 0
+    gset = 0
+    
+    if iset == 0:
+        v1 = 2 * random.random() - 1
+        v2 = 2 * random.random() - 1
+        rsq = v1 * v1 + v2 * v2
+        while rsq >= 1 or rsq == 0:
+            v1 = 2 * random.random() - 1
+            v2 = 2 * random.random() - 1
+            rsq = v1 * v1 + v2 * v2
+        fac = math.sqrt(-2 * math.log(rsq) / rsq)
+        gset = v1 * fac
+        iset = 1
+        return v2 * fac
+    else:
+        iset = 0
+        return gset
 
 def hmc():
     global lattice, volume, nf, DELTAMAX, con
@@ -753,8 +773,9 @@ def hmc():
 
 
 def layout():
-    global no_odd_sites, no_even_sites, volume
-
+    global no_odd_sites, no_even_sites
+    global volume
+    print(no_even_sites)
     no_even_sites = volume/2
     no_odd_sites = volume/2
 

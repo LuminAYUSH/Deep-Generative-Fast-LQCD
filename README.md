@@ -1,1 +1,1 @@
-# Deep-Generative-Fast-LQCD
+# Advance-Computational-Physics
