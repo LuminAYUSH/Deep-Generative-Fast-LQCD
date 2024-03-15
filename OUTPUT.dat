@@ -1,0 +1,175 @@
+ ===================== HMC ALGORITHM =====================
+GN model with HMC algorithm
+
+Alpha machine, Version 1
+
+type 0 for no prompts, 1 for prompts or 2 for list of prompts
+
+Lattice dimensions = 16 16
+
+ COLDLAT: Cold initial config. of `sigma' field
+Old Hamiltonian = 823.687463389996
+New Hamiltonian = 820.5435860638712
+DeltaH = -3.143877326124766
+Accepted
+trajectory = 0 , av_sigma = 0.23950270283237993
+Old Hamiltonian = 1563.6624067915081
+New Hamiltonian = 1572.8460834587922
+DeltaH = 9.18367666728409
+Old Hamiltonian = 1848.1034108337324
+New Hamiltonian = 1947.5839874891406
+DeltaH = 99.48057665540819
+Old Hamiltonian = 1627.320595710664
+New Hamiltonian = 1642.0994244615542
+DeltaH = 14.77882875089017
+Old Hamiltonian = 1923.401180748554
+New Hamiltonian = 2952.2462004098265
+DeltaH = 1028.8450196612725
+Old Hamiltonian = 1445.2581501326022
+New Hamiltonian = 1438.29999042913
+DeltaH = -6.95815970347212
+Accepted
+trajectory = 1 , av_sigma = 1.1317697769253536
+Old Hamiltonian = 1431.0064676102202
+New Hamiltonian = 1464.5452261783257
+DeltaH = 33.53875856810555
+Old Hamiltonian = 1500.069722992546
+New Hamiltonian = 1565.3012273795778
+DeltaH = 65.23150438703169
+Old Hamiltonian = 1397.4485703367427
+New Hamiltonian = 1452.604239324447
+DeltaH = 55.1556689877043
+Old Hamiltonian = 1506.6176675194715
+New Hamiltonian = 1560.7724532894101
+DeltaH = 54.1547857699386
+Old Hamiltonian = 1516.1468747017768
+New Hamiltonian = 1556.1202642349542
+DeltaH = 39.9733895331774
+Old Hamiltonian = 1524.416022526319
+New Hamiltonian = 1576.4389248254975
+DeltaH = 52.02290229917844
+Old Hamiltonian = 1386.6679768604195
+New Hamiltonian = 1514.515079273119
+DeltaH = 127.84710241269954
+Old Hamiltonian = 1393.3187394148154
+New Hamiltonian = 1421.7682448998353
+DeltaH = 28.449505485019927
+Old Hamiltonian = 1395.8935466052224
+New Hamiltonian = 1512.2544116759636
+DeltaH = 116.36086507074128
+Old Hamiltonian = 1472.2088668547308
+New Hamiltonian = 1515.4430031335717
+DeltaH = 43.23413627884088
+Old Hamiltonian = 1539.5554206099678
+New Hamiltonian = 1591.87203588131
+DeltaH = 52.31661527134224
+Old Hamiltonian = 1513.3026001528112
+New Hamiltonian = 1748.50098544702
+DeltaH = 235.19838529420872
+Old Hamiltonian = 1450.3812458034495
+New Hamiltonian = 1493.1933776015799
+DeltaH = 42.812131798130395
+Old Hamiltonian = 1426.0545943299282
+New Hamiltonian = 1467.061991856107
+DeltaH = 41.00739752617869
+Old Hamiltonian = 1487.2256616592533
+New Hamiltonian = 1532.50196552719
+DeltaH = 45.276303867936576
+Old Hamiltonian = 1472.3049219869513
+New Hamiltonian = 1637.889238673135
+DeltaH = 165.58431668618368
+Old Hamiltonian = 1354.679110012315
+New Hamiltonian = 1451.7804245938917
+DeltaH = 97.10131458157662
+Old Hamiltonian = 1439.7736055436553
+New Hamiltonian = 4967471.085470885
+DeltaH = 4966031.311865341
+Old Hamiltonian = 1467.2727305834662
+New Hamiltonian = 1795.4845197174884
+DeltaH = 328.2117891340222
+Old Hamiltonian = 1391.6988208956732
+New Hamiltonian = 1496477.081309936
+DeltaH = 1495085.3824890403
+Old Hamiltonian = 1424.56415249986
+New Hamiltonian = 1460.8633500540973
+DeltaH = 36.29919755423725
+Old Hamiltonian = 1414.2298816200619
+New Hamiltonian = 1445.6956039372453
+DeltaH = 31.465722317183463
+Old Hamiltonian = 1466.0475811955412
+New Hamiltonian = 1490.4321873464098
+DeltaH = 24.38460615086865
+Old Hamiltonian = 1490.4756617805838
+New Hamiltonian = 1545.1032671326195
+DeltaH = 54.627605352035744
+Old Hamiltonian = 1478.3740922554844
+New Hamiltonian = 1495.9089012291065
+DeltaH = 17.534808973622148
+Old Hamiltonian = 1448.6181348840169
+New Hamiltonian = 1447.0604854912283
+DeltaH = -1.5576493927885622
+Accepted
+trajectory = 2 , av_sigma = 0.4095817664597794
+Old Hamiltonian = 1878.120796124105
+New Hamiltonian = 2005.2383702306367
+DeltaH = 127.11757410653172
+CG_MD Not Converged
+ ===================== HMC ALGORITHM =====================
+GN model with HMC algorithm
+
+Alpha machine, Version 1
+
+type 0 for no prompts, 1 for prompts or 2 for list of prompts
+
+Lattice dimensions = 16 16
+
+ COLDLAT: Cold initial config. of `sigma' field
+Old Hamiltonian = 848.6427812871467
+New Hamiltonian = 843.4959155265517
+DeltaH = -5.146865760595006
+Accepted
+trajectory = 0 , av_sigma = 0.2813746883665365
+Old Hamiltonian = 1342.994022741857
+New Hamiltonian = 1336.487439838906
+DeltaH = -6.506582902950868
+Accepted
+trajectory = 1 , av_sigma = 1.0602524565527771
+Old Hamiltonian = 1424.8810941588913
+New Hamiltonian = 1855.3408931712772
+DeltaH = 430.45979901238593
+Old Hamiltonian = 1476.1170430612742
+New Hamiltonian = 1495.3908584856354
+DeltaH = 19.273815424361146
+Old Hamiltonian = 1339.9868727858784
+New Hamiltonian = 1377.9130003647615
+DeltaH = 37.9261275788831
+Old Hamiltonian = 1435.3124001486817
+New Hamiltonian = 1473.1354883571685
+DeltaH = 37.82308820848675
+Old Hamiltonian = 1362.1675007945646
+New Hamiltonian = 1402.2491136777885
+DeltaH = 40.0816128832239
+Old Hamiltonian = 1419.786976360225
+New Hamiltonian = 1496.999112313822
+DeltaH = 77.212135953597
+Old Hamiltonian = 1438.1642553938232
+New Hamiltonian = 1498.8708006716838
+DeltaH = 60.70654527786064
+Old Hamiltonian = 1377.442693645051
+New Hamiltonian = 1389.5357984145853
+DeltaH = 12.09310476953442
+Old Hamiltonian = 1387.6201934632545
+New Hamiltonian = 1448.2773071287068
+DeltaH = 60.65711366545224
+Old Hamiltonian = 1426.2526599647265
+New Hamiltonian = 1473.9216708182234
+DeltaH = 47.66901085349696
+Old Hamiltonian = 1383.026701688971
+New Hamiltonian = 1408.3372237968974
+DeltaH = 25.310522107926545
+Old Hamiltonian = 1375.8066495364667
+New Hamiltonian = 1393.331875356258
+DeltaH = 17.52522581979133
+Old Hamiltonian = 1351.024003982611
+New Hamiltonian = 1387.5384914363485
+DeltaH = 36.5144874537375
